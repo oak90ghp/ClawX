@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Python 质量检查",
+    "description": "创建或修改 Python 文件后，检查语法并提供交付说明。",
+    "instruction": "使用 UTF-8 编写简洁可读的 Python。修改前先读取已有文件。在指定目录模式中使用 check_python 验证语法，再用 sha256 记录文件摘要。不要声称语法检查等同于运行测试。最终列出修改文件、验证结果与尚未测试的功能。",
+    "enabled": true,
+    "allowed_tools": ["read_file", "list_files", "write_file", "run_command"]
+  }
+]
